@@ -1,0 +1,20 @@
+{
+  "name": "Paxos",
+  "description": "Implementation of a leaderless paxos replica",
+  "app": {
+    "script": "paxos.js"
+  },
+  "dependencies": {
+    "social": {
+      "url": "../",
+      "api": ""
+    }
+  },
+  "api": {
+    "paxos": {
+      "constructor": {"value": ["number"]},
+      "propose": {"type": "method", "value": ["string"], "ret": "string"}
+    }
+  },
+  "provides": ["paxos"]
+}

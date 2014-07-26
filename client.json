@@ -1,0 +1,13 @@
+{
+  "name": "Paxos Interactive Client",
+  "description": "Paxos Interactive Client",
+  "app": {
+    "script": "client.js"
+  },
+  "dependencies": {
+    "paxos": {
+      "url": "paxos.json",
+      "api": "paxos"
+    }
+  }
+}

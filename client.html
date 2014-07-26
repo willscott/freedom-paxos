@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+<head>
+    <title>PAXOS ~ freedom.js Demos</title>
+    <meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+    <-- Include freedom.js -->
+    <script type='text/javascript'
+        src='freedom.js'
+        data-manifest='paxos.json'>
+    {
+        "debug": true
+    }
+    </script>
+    <script type='text/javascript' src='client.js'></script>
+   
+    <style type='text/css'>
+    </style>
+</head>
+<body>
+    <header id='logo'>freedom.js</header>
+    <header><span id='triangle'>&#9654;</span> Demos</header>
+    <header><span id='triangle'>&#9654;</span> PAXOS</header>
+    <section id='info'>
+        <span id='num_nodes'>0</span> Peers. <span id='status'></span>.
+    </section>
+    <section>
+        <pre id='log'></pre>
+        <form id='new'>
+            <input type='text' placeholder='Proposed Value...' id='prop' />
+            <input type='submit' value='Propose' />
+        </form>
+    </section>
+</body>
+</html>
