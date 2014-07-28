@@ -1,0 +1,27 @@
+{
+  "name": "freedom-paxos",
+  "version": "0.0.0",
+  "description": "Paxos implementation and test suite for freedom.js",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/willscott/freedom-paxos.git"
+  },
+  "keywords": [
+    "paxos",
+    "freedomjs"
+  ],
+  "author": "Will Scott (https://wills.co.tt/) <willscott@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/willscott/freedom-paxos/issues"
+  },
+  "homepage": "https://github.com/willscott/freedom-paxos",
+  "dependencies": {
+    "freedom": "^0.5.2",
+    "freedom-for-node": "^0.1.1"
+  }
+}
